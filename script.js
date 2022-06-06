@@ -38,7 +38,7 @@ keys.addEventListener('click', e => {
                     console.log('neg/pos');
                     if (outputNum.includes('-')) {
                         output.textContent = outputNum.slice(1);
-                    } else { //if (output.textContent !== '0') 
+                    } else {
                         output.textContent = '-' + outputNum;
                     }
                     break;
